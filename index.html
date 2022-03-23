@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header-menu">
+        <a href="#works" class="header-menu__item">Works</a>
+        <a href="#blog" class="header-menu__item">Blog</a>
+        <a href="#contact" class="header-menu__item">Contact</a>
+        <button class="header-menu__dropdown">
+            <img src="/img/menu.svg" width="20px" height="18px">
+        </button>
+    </header>
+    <main class="content-container">
+        <div class="about">
+            <div class="about-text">
+                <p class="about-text__greeting">Hi, I am John,<br>Creative Technologist</p>
+                <p class="about-text__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <a href="#" download="" class="about-text__link">
+                    <button class="about-text__link-button">Download Resume</button>
+                </a>
+            </div>
+            <div class="about-photo">
+                <img src="/img/avatar.png" alt="User avatar" class="about-photo__image">
+            </div>
+        </div>
+        <div class="blog" id="blog">
+            <div class="blog-header">
+                <p class="blog-header__name">Recent posts</p>
+                <a href="#" class="block-header__link">View all</a>
+            </div>
+            <div class="blog-posts">
+                <div class="blog-posts__item">
+                    <p class="blog-posts__name">Making a design system from scratch</p>
+                    <div class="blog-posts__property">
+                        <time datetime="2020-02-12" class="blog-posts__property-time">12 Feb 2020</time>
+                        <span class="blog-posts__property-category">Design, Pattern</span>
+                    </div>
+                    <p class="blog-posts__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+                <div class="blog-posts__item">
+                    <p class="blog-posts__name">Creating pixel perfect icons in Figma</p>
+                    <div class="blog-posts__property">
+                        <time datetime="2020-02-12" class="blog-posts__property-time">12 Feb 2020</time>
+                        <span class="blog-posts__property-category">Figma, Icon Design</span>
+                    </div>
+                    <p class="blog-posts__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </div>
+            </div>
+        </div>
+        <div class="works" id="works">
+            <p class="works__name">Featured works</p>
+            <div class="works-list">
+                <div class="works-item">
+                    <div class="works-item-image">
+                        <img src="/img/works-1.jpg" alt="Work image" class="works-item-image__item">
+                    </div>
+                    <div class="works-item-text">
+                        <a href="#" class="works-item-text__name">Designing Dashboards</a>
+                        <div class="works-item-text-property">
+                            <span class="works-item-text-property__year-date">2020</span>
+                            <span class="works-item-property__category">Dashboard</span>
+                        </div>
+                        <p class="works-item-text__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>
+                </div>
+                <div class="works-item">
+                    <div class="works-item-image">
+                        <img src="/img/works-2.jpg" alt="Work image" class="works-item-image__item">
+                    </div>
+                    <div class="works-item-text">
+                        <a href="#" class="works-item-text__name">Vibrant Portraits of 2020</a>
+                        <div class="works-item-text-property">
+                            <span class="works-item-text-property__year-date">2018</span>
+                            <span class="works-item-property__category">Illustration</span>
+                        </div>
+                        <p class="works-item-text__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>
+                </div>
+                <div class="works-item">
+                    <div class="works-item-image">
+                        <img src="/img/works-3.jpg" alt="Work image" class="works-item-image__item">
+                    </div>
+                    <div class="works-item-text">
+                        <a href="#" class="works-item-text__name">36 Days of Malayalam type</a>
+                        <div class="works-item-text-property">
+                            <span class="works-item-text-property__year-date">2018</span>
+                            <span class="works-item-property__category">Typography</span>
+                        </div>
+                        <p class="works-item-text__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer" id="contact">
+        <ul class="footer-social-item">
+            <li class="footer-social-item__item">
+                <a href="http://facebook.com" class="footer-social-item__item-link" target="_blank">
+                    <img src="/img/fb.svg" width="35px" height="35px" alt="Facebook">
+                </a>
+            </li>
+            <li class="footer-social-item__item">
+                <a href="http://instagram.com" class="footer-social-item__item-link" target="_blank">
+                    <img src="/img/insta.svg" width="35px" height="35px" alt="Instagram">
+                </a>
+            </li>
+            <li class="footer-social-item__item">
+                <a href="http://twitter.com" class="footer-social-item__item-link" target="_blank">
+                    <img src="/img/twitter.svg"width="35px" height="35px" alt="Twitter">
+                </a>
+            </li>
+            <li class="footer-social-item__item">
+                <a href="http://linkedin.com" class="footer-social-item__item-link" target="_blank">
+                    <img src="/img/Linkedin.svg" width="35px" height="35px" alt="Linkedin">
+                </a>
+            </li>
+        </ul>
+        <p class="footer-copyright">Copyright ©2020 All rights reserved </p>
+    </footer>
+</body>
+</html>
