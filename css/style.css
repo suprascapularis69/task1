@@ -59,17 +59,15 @@ body {
     line-height: 24px;
     margin-bottom: 38px;
 }
-.about-text__link {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 29px;
-    color: #FFFFFF;
-}
 .about-text__link-button {
     min-width: 208px;
     min-height: 47px;
     background: #FF6464;
     border-radius: 2px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
 }
 .about-text__link-button:hover {
     background: black;
@@ -124,6 +122,9 @@ body {
 }
 .blog-posts__item:first-child {
     margin-right: 20px;
+}
+.blog-posts__item:hover {
+    border: 1px solid black;
 }
 .blog-posts__name {
     max-width: 374px;
@@ -213,10 +214,16 @@ body {
     text-align: center;
     color: #FFFFFF;
 }
+.works-item-text-property__year-date:hover {
+    background: red;
+}
 .works-item-property__category {
     font-size: 20px;
     line-height: 29px;
     color: #8695A4;
+}
+.works-item-property__category:hover {
+    color: black;
 }
 .works-item-text__description {
     min-height: 93px;
@@ -239,6 +246,10 @@ body {
 .footer-social-item__item:not(:last-child) {
     margin-right: 35px;
 }
+.footer-social-item__item:hover {
+    border: 1px solid red;
+    border-radius: 6px;
+}
 .footer-copyright {
     font-size: 14px;
     line-height: 21px;
@@ -253,10 +264,10 @@ body {
     .header-menu__dropdown {display: block; margin-left: auto; margin-right: 18px; margin-top: 20px;}
 
     .about {padding-left: 24px; padding-right: 24px; flex-direction: column-reverse; align-items: center; margin-bottom: 75px;}
-    .about-text {max-width: 312px; margin-bottom: 0;}
-    .about-text__greeting {font-size: 32px; line-height: 40px; text-align: center; padding-left: 8px; padding-right: 8px; margin-bottom: 21px;}
+    .about-text {width: 328px; margin-bottom: 0;}
+    .about-text__greeting {width: 312px; font-size: 32px; line-height: 40px; text-align: center; padding-left: 8px; padding-right: 8px; margin: 0 auto 21px auto;}
     .about-text__description {margin-bottom: 27px; text-align: center;width: 328px;}
-    .about-text__link {display: flex; justify-content: space-around;}
+    .about-text__link {display: block; display: flex; justify-content: space-around;}
     .about-photo {margin-bottom: 34px;}
 
     .blog {min-height: 647px; margin-bottom: 3px; padding-left: 10px; padding-right: 10px; padding-bottom: 38px;}
@@ -284,6 +295,7 @@ body {
 
 @media (max-width: 280px) {
     .about-text {max-width: 100%;}
+    .about-text__greeting {width: 100%;}
     .about-text__description {width: 100%;}
     .blog-posts__item {width: 100%;}
     .works-item-image {min-width: 250px;}
